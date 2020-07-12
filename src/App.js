@@ -3,6 +3,7 @@ import Memo from './memo/Memo';
 import AddForm from './memo/AddForm';
 import FindForm from './memo/FindForm';
 import DelForm from './memo/DelForm';
+import PersistForm from './memo/PersistForm';
 
 import { connect } from 'react-redux';
 
@@ -16,6 +17,7 @@ const App = (props) => {
       <AddForm />
       <FindForm />
       <DelForm />
+      <PersistForm />
       <hr />
       <table>
         <tbody>

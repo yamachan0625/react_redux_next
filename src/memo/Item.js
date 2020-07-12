@@ -29,13 +29,13 @@ const Item = (props) => {
 
   // let d = props.value.created;
   // let f = d.getHouse() + ':' + d.getMinuts() + ':' + d.getSeconds();
-  let f = 'aaaa';
+  // let f = 'aaaa';
 
   return (
     <tr>
       <th style={th}>No, {props.index}</th>
       <td style={td}>{props.value.message}</td>
-      <td style={date}>{f}</td>
+      <td style={date}>{props.value.created}</td>
     </tr>
   );
 };
